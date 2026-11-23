@@ -29,7 +29,7 @@ jobs:
       - name: Install Buildozer
         run: |
           python -m pip install --upgrade pip
-          pip install "cython>=3.0.8" buildozer virtualenv setuptools wheel
+          pip install "cython<3.0" buildozer virtualenv setuptools wheel
 
       - name: Build APK
         shell: bash
