@@ -9,7 +9,7 @@ source.dir = .
 source.include_exts = py,png,ttf,wav,txt
 source.exclude_dirs = tests,tools,bin,.github,.buildozer,__pycache__
 
-requirements = python3,pygame
+requirements = python3,pygame==2.6.1
 
 orientation = landscape
 fullscreen = 1
