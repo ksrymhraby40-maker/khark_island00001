@@ -19,13 +19,15 @@ android.presplash_color = #0a1322
 
 android.api = 33
 android.minapi = 21
-android.archs = arm64-v8a, armeabi-v7a
+android.ndk = 25b
+android.archs = arm64-v8a
 android.accept_sdk_license = True
 android.wakelock = True
 android.allow_backup = False
 android.permissions =
 
 p4a.bootstrap = sdl2
+p4a.branch = v2024.01.21
 
 [buildozer]
 log_level = 2
